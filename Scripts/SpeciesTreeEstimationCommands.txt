@@ -1,0 +1,95 @@
+##Commands for PAUP* to obtain species tree estimates and/or maximum likelihood branch lengths (see Supplementary Information for the data sources):
+
+##Dolphin data set
+exe dolphin_full_22genes.nex	#Alignment obtained from reducing the original data set (see Supplementary Information).
+svdq
+outgroup 28
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Dolphin_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Fungi
+exe 29taxa_683genes_ML2ASTRAL_CCC.nex 	#note that we had to replace "-" in species names by "_"
+gettrees file=29taxa_683genes_ML2ASTRAL_CCC.tre 	#tree already rooted; outgroup Cjadinii
+set criterion=likelihood
+lset aaFreq=empirical aaRMatrix=LG clock=yes #(note that we used LG since the authors of the original study also used LG)
+lscores
+savetrees file=Fungi_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Mammal
+exe gene447_final.nex
+svdq
+outgroup 35
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Mammals_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Plant
+exe Plant_52taxa_318genes_ML2ASTRAL_CCC.nex		#Alignment obtained from reducing the original data set (see Supplementary Information).
+svdq
+outgroup 17
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Plant_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Primate
+exe full_Chen_v2_python2.nex
+svdq
+outgroup 4
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Primate_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Rattlesnake
+exe rsnake_red_16genes.nex		#Alignment obtained from reducing the original data set (see Supplementary Information).
+svdq
+outgroup 1
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Rattlesnake_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Rodent
+exe 37_taxa_761genes_Rodent_ML2ASTRAL_CCC.nex		#Alignment obtained from reducing the original data set (see Supplementary Information).
+svdq
+outgroup 37 
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Rodent_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Snake
+exe Colbroidea33_Data_new.nex
+gettrees file=col33_ML.tre		#tree already rooted; outgroup I1 Anolis carolinensis XXX
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Snake_Species_BranchLengthsFromConcat.tre brlens
+
+
+##Yeast
+exe data_yeast.nex
+svdq
+outgroup 8
+roottrees rootmethod=outgroup
+set criterion=likelihood
+lset nst=6 basefreq=empirical rates=gamma rmatrix=estimate shape=estimate clock=yes
+lscores
+savetrees file=Yeast_Species_BranchLengthsFromConcat.tre brlens
