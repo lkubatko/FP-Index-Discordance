@@ -1,0 +1,6 @@
+## example raxml code to get 16 gene trees from the rattlesnake dataset
+
+for i in {1..16}
+do
+raxmlHPC -s gene$i -p 12345 -m GTRGAMMA -o ac1OUTG -n gene$i
+done
