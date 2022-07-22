@@ -1,0 +1,14 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat May 28 11:33:14 2022]
+[!
+>Data file = full_Chen_v2_python2.nex
+]
+	Translate
+		1 Human,
+		2 Chimp,
+		3 Gorilla,
+		4 Orang
+		;
+tree 'PAUP_1' = [&R] (((1:0.005908,2:0.005908):0.002276,3:0.008184):0.007601,4:0.015785):0;
+End;

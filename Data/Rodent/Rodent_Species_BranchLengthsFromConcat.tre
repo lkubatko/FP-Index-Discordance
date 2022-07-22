@@ -1,0 +1,55 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun May 29 14:20:10 2022]
+[!
+>Data file = 1_animal_removal_of_inconsistent_genes_37_taxa_761genes.nex
+>
+>Processing TREES block from file: ~/Library/CloudStorage/OneDrive-
+>TheOhioStateUniversity/Project_Rejuan_Laura_Kristina/SpeciesTrees_BranchLengthsFromConcatenation/29taxa_683gen
+>es_ML2ASTRAL_CCC.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>  1 tree read from file
+>
+>  Time used = 0.00 sec (CPU time = 0.00 sec)
+]
+	Translate
+		1 EC1_Anisomys_imitator_ABTC45107,
+		2 EC1_Chiropodomys_gliroides_KCR2069_Z25153,
+		3 EC1_Conilurus_penicillatus_ABTC7411,
+		4 EC1_Crossomys_moncktoni_ABTC46614,
+		5 EC1_Haeromys_minahassaeZ23000,
+		6 EC1_Hydromys_chrysogaster_Z5248,
+		7 EC1_Hyomys_goliath_ABTC42697,
+		8 EC1_Leggadina_forresti_ABTC36085,
+		9 EC1_Leporillus_conditor_ABTC13335,
+		10 EC1_Leptomys_elegans_ABTC45741,
+		11 EC1_Lorentzimys_nouhuysi_ABTC46314,
+		12 EC1_Macruromys_major_ABTC43909,
+		13 EC1_Mallomys_rothschildiABTC47402,
+		14 EC1_Mammelomys_lanosusABTC47208,
+		15 EC1_Mastacomys_fuscus_ABTC07354,
+		16 EC1_Melomys_rufescens_ABTC44798,
+		17 EC1_Mesembriomys_gouldii_ABTC07412,
+		18 EC1_Notomys_fuscus_ABTC113387,
+		19 EC1_Parahydromys_asper_ABTC45798,
+		20 EC1_Paraleptomys_sp_H126,
+		21 EC1_Paramelomys_levipes_ABTC42506,
+		22 EC1_Pogonomelomys_ruemmleri_ABTC47187,
+		23 EC1_Pogonomys_macrourus_ABTC43144,
+		24 EC1_Pseudohydromys_ellermani_ABTC43920,
+		25 EC1_Pseudomys_albocinereus_ABTC08044,
+		26 EC1_Pseudomys_australis_ABTC35951,
+		27 EC1_Pseudomys_desertor_Z21274,
+		28 EC1_Pseudomys_fumeus_Z27810,
+		29 EC1_Pseudomys_oralis_IG06_001,
+		30 EC1_Rattus_fuscipes_GI02R01,
+		31 EC1_Solomys_salebrosus_ABTC64864,
+		32 EC1_Uromys_caudimaculatus_ASA09,
+		33 EC1_Xenuromys_barbatus_Y250,
+		34 EC1_Xeromys_myoides_ABTC30709,
+		35 EC1_Zyzomys_argurus_ABTC07908,
+		36 Murine_Ref_Mus_20161116,
+		37 Murine_Ref_Rat_20161116
+		;
+tree 'PAUP_1' = [&R] (((((((1:0.013665,(((7:0.011678,23:0.011678):0.001372,12:0.013050):0.000448,11:0.013498):0.000167):0.000484,(((((((3:0.004691,17:0.004691):0.000904,9:0.005595):0.002393,(((16:0.003283,31:0.003283):0.003133,21:0.006416):0.000713,32:0.007129):0.000859):0.001023,((8:0.008217,((((15:0.004004,26:0.004004):0.000982,(27:0.004128,29:0.004128):0.000858):0.000520,(25:0.004740,28:0.004740):0.000766):0.001073,18:0.006579):0.001638):0.000194,35:0.008411):0.000599):0.001755,((4:0.003246,(6:0.001166,19:0.001166):0.002079):0.003131,((10:0.005407,20:0.005407):0.000508,(24:0.005114,34:0.005114):0.000801):0.000462):0.004389):0.002672,22:0.013438):4.65088e-05,(13:0.010640,(14:0.008276,33:0.008276):0.002364):0.002844):0.000664):0.002236,5:0.016384):0.002782,2:0.019167):0.003797,36:0.022964):0.011143,30:0.034107):0,37:0.034107):0;
+End;

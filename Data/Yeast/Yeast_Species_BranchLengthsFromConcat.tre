@@ -1,0 +1,18 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat May 28 11:30:45 2022]
+[!
+>Data file = data_yeast.nex
+]
+	Translate
+		1 Scer,
+		2 Spar,
+		3 Smik,
+		4 Skud,
+		5 Sbay,
+		6 Scas,
+		7 Sklu,
+		8 Calb
+		;
+tree 'PAUP_1' = [&R] (((((((1:0.048364,2:0.048364):0.030916,3:0.079280):0.029756,5:0.109036):3.79758e-006,4:0.109040):0.264810,6:0.373850):0.067415,7:0.441265):0.569953,8:1.011218):0;
+End;

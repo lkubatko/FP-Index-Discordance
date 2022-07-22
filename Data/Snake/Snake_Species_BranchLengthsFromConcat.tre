@@ -1,0 +1,50 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat May 28 15:01:22 2022]
+[!
+>Data file = Colubroidea33_Data_new.nex
+>
+>Processing TREES block from file: C:\Users\krist\OneDrive - The Ohio State
+>University\Project_Rejuan_Laura_Kristina\SpeciesTrees_BranchLengthsFromConcatenation\col33_ML.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>  1 tree read from file
+>
+>  Time used = 0.00 sec (CPU time = 0.00 sec)
+]
+	Translate
+		1 I1_Anolis_carolinensis_XXX,
+		2 I2_Crotalus_adamanteus_XXX,
+		3 I3_Lapemis_curtus_CAS204975,
+		4 I4_Lycodryas_inornatus_RAN39035,
+		5 I5_Gerarda_prevostiana_CAS204972,
+		6 I6_Aparallactus_capensis_AMB8180,
+		7 I7_Acrochordus_granulatus_RAP0485,
+		8 I8_Pseudaspis_cana_AMB6804,
+		9 I9_Diadophis_punctatus_FTB554,
+		10 I10_Sibynophis_bistrigatus_CAS214081,
+		11 I11_Atractaspis_bibroni_AMB8268,
+		12 I12_Pareas_carinatus_CAS247982,
+		13 I13_Masticophis_taeniatum_DBS395,
+		14 I14_Calamaria_pavimentata_CAS235364,
+		15 I15_Psammophis_notostictus_AMB4565,
+		16 I16_Prosymna_frontalis_MCZ38642,
+		17 I17_Pseudoxenodon_macrops_CAS245413,
+		18 I18_Storeria_dekayi_FTB2739,
+		19 I19_Xenodermus_javanicus_FMNH230073,
+		20 I20_Crotalus_horridus_FTB969,
+		21 I21_Heterodon_nasicus_MHP8535,
+		22 I22_Nerodia_rhombifer_DBS353,
+		23 I23_Agkistrodon_contortrix_TJL135,
+		24 I24_Hormonotus_modestus_MVZ252503,
+		25 I25_Grayia_smithii_MCZ182627,
+		26 I26_Echis_carinatus_RS142,
+		27 I27_Azemiops_feae_KU312227,
+		28 I28_Gonionotophis_klingi_MVZ252476,
+		29 I29_Storeria_occipitomaculata_FTB718,
+		30 I30_Storeria_storerioides_CAS238520,
+		31 I31_Regina_rigida_FTB594,
+		32 I32_Calliophis_melanurus_RS148,
+		33 I33_Python_molurus_XXX
+		;
+tree Tree_1 = [&R] (1:0.137853,(((((((((2:0.002665,20:0.002665):0.003496,23:0.006161):0.006609,27:0.012770):0.004664,26:0.017435):0.017351,((((3:0.017954,32:0.017954):0.005948,(4:0.022781,((6:0.017575,11:0.017575):0.004919,((8:0.021212,16:0.021212):0.001156,(15:0.021662,(24:0.014779,28:0.014779):0.006883):0.000707):0.000125):0.000287):0.001121):0.003010,((((9:0.012219,21:0.012219):0.008048,17:0.020266):0.001680,((((18:0.003495,29:0.003495):0.000549,30:0.004044):0.000679,31:0.004723):0.000368,22:0.005091):0.016856):0.000719,(10:0.021047,((13:0.019837,14:0.019837):0.000484,25:0.020321):0.000726):0.001619):0.004245):0.001613,5:0.028524):0.006262):0.003265,12:0.038051):0.011123,19:0.049174):0.003595,7:0.052769):1.90702e-007,33:0.052770):0.085083):0;
+End;

@@ -1,0 +1,70 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun May 29 15:57:40 2022]
+[!
+>Data file = Plant_52taxa_318genes_ML2ASTRAL_CCC.nex
+>
+>Processing TREES block from file: ~/Library/CloudStorage/OneDrive-
+>TheOhioStateUniversity/Project_Rejuan_Laura_Kristina/SpeciesTrees_BranchLengthsFromConcatenation/29taxa_683gen
+>es_ML2ASTRAL_CCC.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>  1 tree read from file
+>
+>  Time used = 0.00 sec (CPU time = 0.00 sec)
+]
+	Translate
+		1 Agastache_foeniculum,
+		2 Ajuga_reptans,
+		3 Aureolaria_pectinata,
+		4 Ballota_pseudodictamnus,
+		5 Betonica_officinalis,
+		6 Callicarpa_americana,
+		7 Clerodendrum_bungei,
+		8 Collinsonia_canadensis,
+		9 Congea_tomentosa,
+		10 Cornutia_pyramidata,
+		11 Glechoma_hederacea,
+		12 Gmelina_philippensis,
+		13 Holmskioldia_sanguinea,
+		14 Hyptis_suaveolens,
+		15 Hyssopus_officinalis,
+		16 Lamium_album,
+		17 Lancea_tibetica,
+		18 Lavandula_angustifolia,
+		19 Leonotis_leonurus,
+		20 Leonurus_cardiaca,
+		21 Lycopus_americanus,
+		22 Marrubium_vulgare,
+		23 Melissa_officinalis,
+		24 Mentha_piperita,
+		25 Mentha_spicata,
+		26 Monarda_didyma,
+		27 Nepeta_cataria,
+		28 Nepeta_mussinii,
+		29 Ocimum_basilicum,
+		30 Origanum_majorana,
+		31 Origanum_vulgare,
+		32 Paulownia_tomentosa,
+		33 Perilla_frutescens,
+		34 Perovskia_atriplicifolia,
+		35 Petraeovitex_bambusetorum,
+		36 Petrea_volubilis,
+		37 Phlomis_fruticosa,
+		38 Plectranthus_barbatus,
+		39 Pogostemon_cablin,
+		40 Premna_microphylla,
+		41 Prostanthera_lasianthos,
+		42 Prunella_vulgaris,
+		43 Rosmarinus_officinalis,
+		44 Rotheca_myricoides,
+		45 Salvia_hispanica,
+		46 Salvia_officinalis,
+		47 Scutellaria_baicalensis,
+		48 Tectona_grandis,
+		49 Teucrium_canadense,
+		50 Thymus_vulgaris,
+		51 Vitex_agnus_castus,
+		52 Westringia_fruticosa
+		;
+tree 'PAUP_1' = [&R] ((((((((((((1:0.026511,11:0.026511):0.007280,15:0.033791):0.013193,(27:0.010712,28:0.010712):0.036271):0.017816,42:0.064800):0.001393,21:0.066193):0.003539,(((24:0.009428,25:0.009428):0.017123,26:0.026551):0.014920,((30:0.006347,31:0.006347):0.015354,50:0.021701):0.019770):0.028261):0.003853,(23:0.060991,(((34:0.038203,43:0.038203):0.004551,46:0.042754):0.007802,45:0.050555):0.010436):0.012593):0.015567,((8:0.019611,33:0.019611):0.065265,(((14:0.058778,38:0.058778):0.006499,29:0.065277):0.012819,18:0.078096):0.006780):0.004275):0.034018,(((((((2:0.067903,7:0.067903):0.005280,49:0.073184):0.014638,44:0.087821):0.003718,47:0.091539):0.001581,(((((((4:0.014114,22:0.014114):0.026061,20:0.040175):0.001152,16:0.041327):0.002413,19:0.043740):0.006655,37:0.050395):0.003783,5:0.054178):0.020985,39:0.075163):0.017957):0.002549,(((6:0.055089,32:0.055089):0.011702,52:0.066791):0.010014,((((9:0.063543,48:0.063543):0.002216,51:0.065758):0.004463,(10:0.067427,(12:0.060239,40:0.060239):0.007188):0.002794):0.006584,41:0.076805):1.08176e-07):0.018863):0,(13:0.064080,35:0.064080):0.031589):0.027501):0.013617,36:0.136787):0.007230,3:0.144017):2.93850e-07,17:0.144017):0;
+End;

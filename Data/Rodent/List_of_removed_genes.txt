@@ -1,0 +1,36 @@
+Several of the gene trees available from the original paper did not contain all of the taxa. 33 gene trees were thus excluded because they were incomplete:
+
+23 = LRRC8A_1_rat_final = 36811-38964 
+94 = DNA, FOXN2_1_rat_final = 113638-114174 
+95 = DNA, KLHL23_1_rat_final = 114175-115389 
+105 = DNA, FBXW7_1_rat_final = 125275-125796 
+145 = DNA, PCK2_1_rat_final = 167581-168030 
+155 = DNA, TOB1_1_rat_final = 176797-177936 
+242 = DNA, SLC3A2_1_mus_final = 265246-265653 
+251 = DNA, TCF20_1_rat_final = 274687-275610 
+259 = DNA, SERPIND1_1_rat_final = 282883-283713 
+272 = DNA, ASB15_1_rat_final = 295744-296481 
+275 = DNA, SH2B1_1_rat_final = 298129-299073 
+315 = DNA, CHRNB3_1_rat_final = 329542-330468 
+320 = DNA, ZRANB1_1_rat_final = 333100-333912 
+332 = DNA, SLC16A13_1_rat_final = 343132-343866 
+366 = DNA, POU4F3_1_rat_final = 370462-371355 
+368 = DNA, Cpb2_11_rat_final = 371923-372171 
+405 = DNA, SYNCRIP_1_rat_final = 395221-395793 
+513 = DNA, NFE2L2_1_rat_final = 534790-536013 
+549 = DNA, NKTR_1_rat_final = 578203-579552 
+579 = DNA, YTHDF3_1_rat_final = 605443-607089 
+605 = DNA, PEX13_1_rat_final = 633514-634206 
+608 = DNA, KLF5_1_mus_final = 635206-636096 
+614 = DNA, ZBTB7A_2_rat_final = 640003-640464 
+618 = DNA, FSTL4_1_rat_final = 643606-644304 
+637 = DNA, ZBTB14_1_rat_final = 663169-664515 
+673 = DNA, C6orf203_1_rat_final = 708184-708660 
+676 = DNA, PMEPA1_1_rat_final = 710500-711024 
+681 = DNA, ANKK1_1_rat_final = 713647-714855 
+688 = DNA, TMEM70_1_rat_final = 720325-720780 
+716 = DNA, ELF1_2_rat_final = 746728-747324 
+747 = DNA, DBR1_1_mus_final = 769600-770322 
+757 = DNA, CLDN2_1_rat_final = 777256-777945 
+793 = DNA, CPSF7_1_rat_final = 802951-803361 
+ 

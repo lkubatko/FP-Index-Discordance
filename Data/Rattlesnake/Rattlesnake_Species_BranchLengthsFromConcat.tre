@@ -1,0 +1,17 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sat May 28 09:56:58 2022]
+[!
+>Data file = rsnake_red_16genes.nex
+]
+	Translate
+		1 ac1OUTG,
+		2 sca151WI,
+		3 sced127AZ,
+		4 scter115K,
+		5 smc1NC,
+		6 smi100FL,
+		7 sms1OK
+		;
+tree 'PAUP_1' = [&R] (1:0.033896,((2:0.012272,(3:0.003130,4:0.003130):0.009142):0.006450,(5:0.002899,(6:0.002442,7:0.002442):0.000456):0.015823):0.015174):0;
+End;

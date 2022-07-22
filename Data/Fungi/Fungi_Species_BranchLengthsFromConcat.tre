@@ -1,0 +1,47 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Sun May 29 12:47:00 2022]
+[!
+>Data file = 29taxa_683genes_ML2ASTRAL_CCC.nex
+>
+>Processing TREES block from file: ~/Library/CloudStorage/OneDrive-
+>TheOhioStateUniversity/Project_Rejuan_Laura_Kristina/SpeciesTrees_BranchLengthsFromConcatenation/29taxa_683gen
+>es_ML2ASTRAL_CCC.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>  1 tree read from file
+>
+>  Time used = 0.00 sec (CPU time = 0.00 sec)
+]
+	Translate
+		1 Cjadinii,
+		2 Han_19,
+		3 Hclermontiae_3496-160519,
+		4 Hguilliermondii,
+		5 Hguilliermondii_34962-170307,
+		6 Hjakobsenii_35692-160519,
+		7 Hlachancei_34961-170307,
+		8 Hlibkind_35685-160519,
+		9 Hmeyeri_34960-160519,
+		10 Hnectarophila_35693-160613,
+		11 Hoccidentalis_var_citrica_35694-160519,
+		12 Hoccidentalis_var_occidentalis_34959-160519,
+		13 Hopuntiae,
+		14 Hosmophila,
+		15 Hosmophila_34957-160519,
+		16 Hpseudoguilliermondii_35695-160519,
+		17 Hsingularis_35696-160519,
+		18 Hthailandica_35697-160519,
+		19 Huvarum_34-9,
+		20 Huvarum_34956-170307,
+		21 Huvarum_AWRI3580,
+		22 Huvarum_DSM2768,
+		23 Hvalbyensis,
+		24 Hvinae,
+		25 Hvineae_26147-160519,
+		26 Khatyaiensis_35684-160519,
+		27 Kmarxianus,
+		28 Scer,
+		29 Wanomalus
+		;
+tree Tree_1 = [&R] (1:0.401628,((((2:0.122329,(11:0.010190,12:0.010190):0.112139):0.021028,((14:0.000805,15:0.000805):0.028670,(24:0.001457,25:0.001457):0.028019):0.113882):0.182007,((((((3:0.018516,9:0.018516):0.029043,(10:0.042533,((19:0.001791,22:0.001791):0.000131,(20:0.001138,21:0.001138):0.000784):0.040611):0.005027):0.005160,18:0.052719):0.014773,((4:0.000664,5:0.000664):0.028451,(7:0.018424,(13:0.013061,16:0.013061):0.005364):0.010690):0.038377):0.038309,26:0.105801):0.063035,((6:0.109403,17:0.109403):0.023320,(8:0.018068,23:0.018068):0.114654):0.036114):0.156528):0.043917,(27:0.250093,28:0.250093):0.119189):0.032347,29:0.401628):0;
+End;
