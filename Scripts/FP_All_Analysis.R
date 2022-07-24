@@ -17,9 +17,9 @@ mynamestheme <- theme(
 
 
 #########################
-# 1. Hu-Ch-Go (primate)
+# 1. Primate
 
-primate = read.table("human_chimp_gorilla_fp_combined_table.txt",header=T)
+primate = read.table("Primate_fp_combined_table.txt",header=T)
 
 ncol = dim(primate)[2]
 
@@ -60,7 +60,7 @@ cor(primate_ranks[,53],primate_ranks[,54],method="kendall")
 ############################
 2. Rattlesnake
 
-rattle = read.table("rattlesnake_fp_combined_table.txt",header=T)
+rattle = read.table("Rattlesnake_fp_combined_table.txt",header=T)
 ncol = dim(rattle)[2]
 
 rattle_ranks = matrix(rank(-1*rattle[,2],ties.method="min"),ncol=1)
@@ -103,7 +103,7 @@ cor(rattle_ranks[,17],rattle_ranks[,18],method="kendall")
 ############################
 # 3. Yeast
 
-yeast = read.table("yeast_fp_combined_table.txt",header=T)
+yeast = read.table("Yeast_fp_combined_table.txt",header=T)
 ncol = dim(yeast)[2]
 #109
 
@@ -148,7 +148,7 @@ cor(yeast_ranks[,107],yeast_ranks[,108],method="kendall")
 ##################################
 # 4. Dophin
 
-dolphin = read.table("dolphin_fp_combined_table.txt",header=T)
+dolphin = read.table("Dolphin_fp_combined_table.txt",header=T)
 ncol = dim(dolphin)[2]
 #25
 
@@ -194,7 +194,7 @@ cor(dolphin_ranks[,23],dolphin_ranks[,24],method="kendall")
 ##############################
 # 5. Mammals
 
-mammals = read.table("mammals_fp_combined_table.txt",header=T)
+mammals = read.table("Mammals_fp_combined_table.txt",header=T)
 ncol = dim(mammals)[2]
 # 450
 
@@ -239,7 +239,7 @@ cor(mammals_ranks[,448],mammals_ranks[,449],method="kendall")
 
 
 # Note: I had to read this one in differently -- so the dimensions are different then the other cases because I already removed the first column
-mysnakes = matrix(scan("snake_fp_combined_table_try2.csv",skip=1,sep=','),nrow=33,byrow=T)
+mysnakes = matrix(scan("Snake_fp_combined_table_try2.csv",skip=1,sep=','),nrow=33,byrow=T)
 snakes = data.frame(mysnakes)
 ncol = dim(snakes)[2]
 # 335
@@ -284,7 +284,7 @@ cor(snakes_ranks[,334],snakes_ranks[,335],method="kendall")
 # 7. Fungi
 
 # Note: same issue as with snakes above
-myfungi = matrix(scan("fungi_fp_combined_table_try2.csv",skip=1,sep=','),nrow=29,byrow=T)
+myfungi = matrix(scan("Fungi_fp_combined_table_try2.csv",skip=1,sep=','),nrow=29,byrow=T)
 fungi = data.frame(myfungi)
 ncol = dim(fungi)[2]
 # 685
@@ -324,9 +324,9 @@ cor(fungi_ranks[,684],fungi_ranks[,685],method="kendall")
 
 
 ###########################
-# 8. Animal
+# 8. Rodent
 
-animals = read.table("animal_fp_combined_table.txt",header=T)
+animals = read.table("Rodent_fp_combined_table.txt",header=T)
 ncol = dim(animals)[2]
 # 764
 
@@ -374,7 +374,7 @@ cor(animals_ranks[,762],animals_ranks[,763],method="kendall")
 ###########################
 # 9. plant data
 
-plants = read.table("plant_fp_combined_table_NA.txt",header=T)
+plants = read.table("Plant_fp_combined_table_NA.txt",header=T)
 
 ncol = dim(plants)[2]
 
